@@ -212,7 +212,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("./assets/images/desktop/image-photography.jpg");
+  background-image: url("../../images/desktop/image-photography.jpg");
   grid-column: 2/3;
   grid-row: 3/4;
 }
