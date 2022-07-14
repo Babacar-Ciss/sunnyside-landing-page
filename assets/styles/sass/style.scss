@@ -163,6 +163,14 @@ body {
                height: 10px;
                background-color: rgba($yellow, .25);
             }
+
+            & a:visited:hover::before,
+            & a:link:hover::before
+                {
+                background-color: $yellow;
+                transition: all .3s;
+            }
+            
         }
 
 
@@ -223,6 +231,13 @@ body {
                width: 137px;
                height: 10px;
                background-color: rgba($soft-red, .25);
+            }
+
+            & a:visited:hover::before,
+            & a:link:hover::before
+                {
+                background-color: $soft-red;
+                transition: all .3s;
             }
         }
 
@@ -393,9 +408,14 @@ body {
         &__logo {
             width: 170px;
             height: 33px;
-            margin-top: -75px ;
+            margin-top: 0px ;
             margin-bottom: 40px;
-            filter: invert(37%) sepia(62%) saturate(352%) hue-rotate(118deg) brightness(93%) contrast(95%);
+            margin-left: 35px;
+
+            path {
+                fill: $darkcyan-desatured;
+            }
+
         }
 
         & ul {
@@ -422,7 +442,16 @@ body {
                 width: 20px;
                 height: 20px;
             }
+
+            svg path {
+                fill: $darkcyan-desatured ;
             
+            &:hover{
+                fill: aliceblue;
+                transition: all .3s;
+            }
+            
+            }            
         }
     }
 
@@ -441,4 +470,9 @@ body {
 }
 
 
-
+.active:hover {
+    background: rgba($white, .25);
+    color: $white;
+    transition: all .3s;
+ }
+ 
