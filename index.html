@@ -27,6 +27,20 @@
         <a href="#"><li class="active">Contact</li></a>
       </ul>
 
+    <a id="hamburger"   class="header__hamburger-menu show" href="#">
+      <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
+    </a>
+
+    <div class="header__menu-mobile" id="hide-mobile" >
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a id="active-mobile" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+
     <h1 class="header__hero-tag">
       WE ARE CREATIVES
     </h1>
@@ -89,11 +103,18 @@
   </section>
 
   <section class="heros">
-      <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
-      <img src="./assets/images/desktop/image-gallery-orange.jpg" alt="oranges">
-      <img src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
-      <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugars cubes">
-  </section>
+      <img class ="desktop" src="./assets/images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+      <img class ="hide" src="./assets/images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
+      
+      <img class ="desktop" src="./assets/images/desktop/image-gallery-orange.jpg" alt="oranges">
+      <img class ="hide" src="./assets/images/mobile/image-gallery-orange.jpg" alt="oranges">
+     
+      <img class ="desktop" src="./assets/images/desktop/image-gallery-cone.jpg" alt="cone">
+      <img class ="hide" src="./assets/images/mobile/image-gallery-cone.jpg" alt="cone">
+      
+      <img class ="desktop" src="./assets/images/desktop/image-gallery-sugarcubes.jpg" alt="sugars cubes">
+      <img class ="hide" src="./assets/images/mobile/image-gallery-sugar-cubes.jpg" alt="sugars cubes">
+    </section>
 
   <div class="footer">
     
@@ -128,5 +149,6 @@
   </div>
 
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
