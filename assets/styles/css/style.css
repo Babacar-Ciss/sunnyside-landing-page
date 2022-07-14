@@ -18,7 +18,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   height: 100vh;
-  background-image: url(/assets/images/desktop/image-header.jpg);
+  background-image: url("./assets/images/desktop/image-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 .container .header__arrow {
   width: 30px;
   height: 107px;
-  transform: translate(-610px, 40px);
+  transform: translate(-50px, -50px);
 }
 .container .main {
   display: grid;
@@ -178,7 +178,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-image: url(/assets/images/desktop/image-graphic-design.jpg);
+  background-image: url("./assets/images/desktop/image-graphic-design.jpg");
   grid-column: 1/2;
   grid-row: 3/4;
 }
@@ -212,7 +212,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-image: url(/assets/images/desktop/image-photography.jpg);
+  background-image: url("./assets/images/desktop/image-photography.jpg");
   grid-column: 2/3;
   grid-row: 3/4;
 }
