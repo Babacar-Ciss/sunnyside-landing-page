@@ -45,7 +45,6 @@ body {
   color: hsl(0deg, 0%, 100%);
 }
 .container .header__hero-tag {
-  height: 69px;
   flex-basis: 75%;
   margin: 0 auto;
   text-align: center;
@@ -54,12 +53,19 @@ body {
   font-size: 56px;
   letter-spacing: 8.75px;
   color: hsl(0deg, 0%, 100%);
-  transform: translate(20px, -97px);
+  transform: translate(20px, -140px);
+  position: relative;
 }
-.container .header__arrow {
+.container .header__hero-tag::after {
+  content: " ";
   width: 30px;
-  height: 107px;
-  transform: translate(-50px, -50px);
+  height: 108px;
+  position: absolute;
+  top: 100px;
+  left: 470px;
+  background-image: url("../../images/svg-logos/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .container .main {
   display: grid;
